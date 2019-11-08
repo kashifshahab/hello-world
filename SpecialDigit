@@ -1,0 +1,22 @@
+class SpecialDigit1
+{
+public static void main(String args[])
+{
+int num1=num;
+int num=1;
+int sum=0, prod=1;
+while(num1>0)
+{
+int digit=num1%10;
+sum=sum+digit;
+prod=prod*digit;
+num1=num1/10;
+}
+if(num==(sum+prod))
+{
+System.out.println(num);
+}
+num++;
+
+}
+}
