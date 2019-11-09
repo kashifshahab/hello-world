@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class EachEvenDigit 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s1=new Scanner(System.in);
+		System.out.println("enter the num");
+		int num=s1.nextInt();
+		
+	while (num>0)
+	{
+		int digit=num%10;
+		if (digit%2==0)
+		{
+			System.out.println(digit);
+		}
+		
+		num/=10;
+	}
+		
+	}
+}
